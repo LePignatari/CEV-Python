@@ -1,3 +1,7 @@
+'''
+Desafio 049 - Refaça o desafio 009, mostrando a tabuada de um número que o usuário escolher, só que agora utilizando laço for.
+'''
+
 print('°°°' * 10)
 print(f'{' ':>11}TABUADA')
 print('°°°' * 10)
