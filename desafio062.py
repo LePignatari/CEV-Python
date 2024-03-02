@@ -1,6 +1,12 @@
+'''
+Desafio 062: Melhore o → Desafio 061: peguntando para o usuário se ele quer mostrar mais alguns termos. 
+O programa encerra quando ele disser que quer mostrar “0 termos”. 
+'''
+
 print('\033[33m-=-' * 5)
 print('CALCULANDO A PA')
 print('-=-' * 5)
+
 p = int(input('\033[mPrimeiro termo: '))
 r = int(input('Razão: '))
 cont = 1
