@@ -1,6 +1,11 @@
+'''
+Desafio 061: Refaça o → Desafio 051: lendo o primeiro termo e a razão de uma PA, mostrando os 10 primeiros termos da progressão usando o WHILE
+'''
+
 print('\033[33m-=-' * 5)
 print('CALCULANDO A PA')
 print('-=-' * 5)
+
 termo = int(input('\033[mPrimeiro termo: '))
 r = int(input('Razão: '))
 p = termo
