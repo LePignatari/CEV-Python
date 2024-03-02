@@ -1,6 +1,13 @@
+'''
+esafio 071: Crie um programa que simule o funcionamento de um caixa eletrônico. 
+No início, pergunte ao usuário qual seá o valor a ser sacado ( nmr inteiro) e o programa vai informar quantas cédulas de cada valor serão entregues. 
+OBS: considere que o caixa possui cédulas de R$ 50, R$20, R$10 e R$1.
+'''
+
 print('\033[35m=-=' * 10)
 print('     BANCO CURSO EM VÍDEO')
 print('=-=' * 10)
+
 v = float(input('\033[mQual valor você quer sacar? R$'))
 n50 = n20 = n10 = n1 = cont = 0    # contadores
 while True:
@@ -18,6 +25,7 @@ while True:
         n1 += 1
     elif v == 0:
         break
+        
 print('\033[35m=-=' * 10)
 print(f'\033[mTotal de {n50} cédulas de R$50')
 print(f'Total de {n20} cédulas de R$20')
