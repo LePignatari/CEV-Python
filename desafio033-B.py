@@ -1,3 +1,8 @@
+'''
+Desafio 033: Faça um programa que leia três números e mostre qual é o maior e qual é o menor.
+>>> Utilizei função:
+'''
+
 print('\033[35m|'*25)
 p = int(input('Digite o primeiro valor: '))
 s = int(input('Digite o segundo valor: '))
