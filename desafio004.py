@@ -1,3 +1,7 @@
+'''
+Desafio 04: programa que leia algo pelo teclado e mostre na tela seu tipo primitivo e todas as possíveis informações. 
+'''
+
 n = input('Digite algo: ')
 print('Totalmente em maiúsculo?: {}'.format(n.isupper()))
 print('Totalmente em minúsculo?: {}'.format(n.islower()))
