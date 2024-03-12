@@ -1,6 +1,12 @@
+'''
+Desafio 063:  Escreva um programa que leia um número n inteiro qualquer e mostre na tela os n primeiros elementos de uma Sequência de Fibonacci. 
+Exemplo: 0 → 1 → 1 → 2 → 3 → 5 → 8 .
+'''
+
 print('\033[35m-=-' * 10)
 print('   SEQUÊNCIA DE FIBONACCI')
 print('-=-' * 10)
+
 num = int(input('\033[m⇨ Quantos termos deseja mostrar? '))
 cont = 3    # começa a contar no 3 porque ja vou mostrar o 0 ⇨ 1 no começo
 anterior = 0

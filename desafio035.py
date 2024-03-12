@@ -1,9 +1,14 @@
+'''
+Desafio 035: Desenvolva um programa que leia o comprimento de três retas e diga ao usuário se elas podem ou não formar um triângulo.
+'''
+
 print('°'*35)
 a = float(input('Digite o valor do primeiro lado: '))
 b = float(input('Digite o valor do segundo lado: '))
 c = float(input('Digite o valor do terceiro lado: '))
 print('°'*35)
 print('\033[4;36mVerificando as condições de existência...\033[m')
+
 if a < b + c and b < a + c and c < a + b:
     print('\033[32mPodemos formar um triângulo!!.')
 else:

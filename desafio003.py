@@ -1,3 +1,6 @@
+''' Crie um programa que pergunte para o usuário dois valores
+    e mostre a soma entre eles. '''
+
 print('===== SOMANDO =====')
 n1 = int(input('Digite o primeiro número: '))
 n2 = int(input('Digite o segundo número: '))

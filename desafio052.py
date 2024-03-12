@@ -1,9 +1,15 @@
+'''
+Desafio 052 - Faça um programa que leia um número inteiro e diga se ele é ou não um número primo ( números divisíveis por 1 e ele mesmo).
+'''
+
 print('\033[33m-=-' * 10)
 print(f'{' ':>3}DESCOBRINDO SE É PRIMO')
 print('-=-' * 10)
+
 print('\033[35mCondições: ser divísivel somente por 1 e ele mesmo.\033[m')
 num = int(input('Informe um número: '))
 cont = 0
+
 for c in range(1, num + 1):
     if num % c == 0:
         cont += +1

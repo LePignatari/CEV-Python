@@ -1,3 +1,8 @@
+'''
+Desafio 018: Faça um programa que leia um ângulo qualquer e mostre na tela o valor do seno, cosseno e tangente desse ângulo.
+COMEÇO DO MUNDO 1
+'''
+
 from math import cos, tan, sin, radians
 ang = float(input('Informe um ângulo: °'))
 print('O ângulo {} possui: '.format(ang))

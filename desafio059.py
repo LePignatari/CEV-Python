@@ -1,9 +1,20 @@
+'''
+Desafio 059: Crie um programa que leia dois valores e mostre um menu na tela: 
+[1] somar. 
+[2] multiplicar.
+[3] mostrar o maior.
+[4] digitar novos números.
+[5] sair do programa. 
+Seu programa deverá realizar a operação solicitada em cada caso.
+'''
+
 from time import sleep
 from emoji import emojize
 n1 = int(input('Digite o primeiro valor: '))
 n2 = int(input('Digite o segundo valor: '))
 op = 0
 maior = [n1, n2]
+
 while op != 5:      # flag
     print('''    [1] Somar
     [2] Multiplicar
@@ -35,4 +46,5 @@ while op != 5:      # flag
         print('Opção inválida. Tente novamente!')
     print('-=-' * 10)
 sleep(0.5)
+
 print(emojize('\033[32mFim do programa! Volte sempre!:grinning_face_with_big_eyes:'))
